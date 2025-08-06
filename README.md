@@ -2,13 +2,13 @@
 
 TASK 1 - Data Cleaning & Feature Engineering
 
-Handles missing values in Age and Embarked.
+Handled missing values in Age and Embarked.
 
-Converts data types (e.g., Age to integer).
+Converted data types (e.g., Age to integer).
 
-Drops unhelpful or high-cardinality columns like Cabin, Name, and Ticket.
+Droped unhelpful or high-cardinality columns like Cabin, Name, and Ticket.
 
-Adds meaningful features:
+Added meaningful features:
 
 Title: Extracted from the passenger's name.
 
