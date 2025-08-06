@@ -6,7 +6,7 @@ Handled missing values in Age and Embarked.
 
 Converted data types (e.g., Age to integer).
 
-Droped unhelpful or high-cardinality columns like Cabin, Name, and Ticket.
+Dropped unhelpful or high-cardinality columns like Cabin, Name, and Ticket.
 
 Added meaningful features:
 
