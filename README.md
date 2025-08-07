@@ -1,20 +1,15 @@
-# Titanic_Survey
+# TASK 1
 
-TASK 1 - Data Cleaning & Feature Engineering
+Task 1: Exploratory Data Analysis (EDA)
 
-Handled missing values in Age and Embarked.
+This task focused on understanding the dataset through exploratory data analysis techniques using the Titanic dataset.
 
-Converted data types (e.g., Age to integer).
+Steps I Followed:
 
-Dropped unhelpful or high-cardinality columns like Cabin, Name, and Ticket.
+1. Loaded the Dataset: Imported the Titanic dataset using Pandas and Numpy
 
-Added meaningful features:
+2.Explored the Structure: Viewed basic information using .head(), .info(), .describe() , Checked for missing values and data types
 
-Title: Extracted from the passenger's name.
+3. Visualized Key Columns: Plotted histograms, boxplots, and count plots to explore distributions , Used correlation matrix and pair plots to understand relationships between features
 
-TicketPrefix: Extracted from the ticket string.
-
-FamilySize: Total number of family members aboard.
-
-Finalizes a cleaned version of the dataset for analysis.
-
+4.Drew Insights: Identified trends (e.g., survival rates by gender/class) , Found missing data patterns and planned data cleaning steps
